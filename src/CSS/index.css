@@ -1,43 +1,171 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
 body {
-  background-image: url("../../public/assets/img/bkgrnd-img.png");
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+html {
+  background: url("../../public/assets/img/bkgrnd-img.png") no-repeat center fixed;
   background-size: cover;
   background-color: #754835;
 }
-body .container {
+html body .container {
   max-width: 1280px;
   margin: 0 auto;
   font-family: 'Montaga', serif;
 }
-body .container .nav {
+html body .container .nav {
   width: 37%;
   margin-top: 3rem;
   margin-left: 0;
   border: 0.1px solid blueviolet;
 }
-body .container .nav nav {
+html body .container .nav nav {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-between;
 }
-body .container .nav nav a {
+html body .container .nav nav a {
   text-decoration: none;
   font-size: 1.6rem;
-  color: #ad6e3b;
+  color: #212706;
 }
-body .container .mortar-pestle {
+html body .container .mortar-pestle {
   width: 242px;
   height: 237px;
   margin: -3.3rem 31.5rem;
   border: 0.1px solid green;
 }
-body .container .oval-bowl {
+html body .container .oval-bowl {
   width: 319px;
   height: 339px;
   margin: -9rem 53.5rem;
   border: 0.1px solid yellow;
 }
-body .container .cutting-board {
+html body .container .cutting-board {
   width: 366px;
   height: 441px;
   margin: -17rem 6rem;
