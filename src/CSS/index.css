@@ -1,5 +1,5 @@
 body {
-  @max 1280 and background-image: url("../../public/assets/img/bkgrnd-img.png");
+  background-image: url("../../public/assets/img/bkgrnd-img.png");
   background-size: cover;
   background-color: #754835;
 }
