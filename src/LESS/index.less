@@ -1,10 +1,17 @@
 body {
-    background-image: url("../../public/assets/img/bkgrnd-img.png");
-    background-size: 100% auto;
+    @media @max1280 {
+        background-image: url("../../public/assets/img/bkgrnd-img.png");
+    }
+
+    @media @max992 {
+        background-image: url("../../public/assets/img/bkgrnd-img-992.png");
+    }
+    
+    background-size: cover;
     background-color: #754835;
 
     .container {
-        max-width: 1200px;
+        max-width: 1280px;
         margin: 0 auto;
         font-family: 'Montaga', serif;
 
@@ -31,21 +38,23 @@ body {
         .mortar-pestle {
             width: 242px;
             height: 237px;
-            margin: -3.3rem 28.8rem;
+            margin: -3.3rem 31.5rem;
             border: 0.1px solid green;  //Spacing use only
+
+            
         }
 
         .oval-bowl {
             width: 319px;
             height: 339px;
-            margin: -9rem 50.5rem;
+            margin: -9rem 53.5rem;
             border: 0.1px solid yellow;  //Spacing use only
         }
 
         .cutting-board {
             width: 366px;
             height: 441px;
-            margin: -17rem 3.5rem;
+            margin: -17rem 6rem;
             border: 0.1px solid pink;  //Spacing use only
         }
 
