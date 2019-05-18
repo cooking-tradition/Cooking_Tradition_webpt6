@@ -126,48 +126,32 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
-html {
+body {
   background: url("../../public/assets/img/bkgrnd-img.png") no-repeat center fixed;
   background-size: cover;
   background-color: #754835;
 }
-html body .container {
+body .container {
   max-width: 1280px;
   margin: 0 auto;
   font-family: 'Montaga', serif;
 }
-html body .container .nav {
-  width: 37%;
-  margin-top: 3rem;
+body .container .nav {
+  width: 11rem;
+  margin-top: 8rem;
   margin-left: 0;
+  box-sizing: border-box;
   border: 0.1px solid blueviolet;
 }
-html body .container .nav nav {
+body .container .nav nav {
+  height: 17rem;
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
+  flex-direction: column;
   justify-content: space-between;
+  align-items: center;
 }
-html body .container .nav nav a {
+body .container .nav nav a {
   text-decoration: none;
-  font-size: 1.6rem;
-  color: #212706;
-}
-html body .container .mortar-pestle {
-  width: 242px;
-  height: 237px;
-  margin: -3.3rem 31.5rem;
-  border: 0.1px solid green;
-}
-html body .container .oval-bowl {
-  width: 319px;
-  height: 339px;
-  margin: -9rem 53.5rem;
-  border: 0.1px solid yellow;
-}
-html body .container .cutting-board {
-  width: 366px;
-  height: 441px;
-  margin: -17rem 6rem;
-  border: 0.1px solid pink;
+  font-size: 1.7rem;
+  color: #001a00;
 }
