@@ -1,24 +1,31 @@
-.container {
-    max-width: 1200px;
-    margin: 0 auto;
+body {
     background-image: url("../../public/assets/img/bkgrnd-img.png");
+    background-size: 100% auto;
     background-color: #754835;
-    font-family: 'Montaga', serif;
 
-    .nav{
-        width: 100%;
-        border: 2px solid blueviolet; //Spacing use only
-        padding: 10px;
-        
-        nav{
-            display: flex;
-            justify-content: space-evenly;
+    .container {
+        max-width: 1200px;
+        margin: 0 auto;
+        font-family: 'Montaga', serif;
 
-            a{
-                text-decoration: none;
-                color: black;   
-            }
+        .nav {
+            width: 37%;
+            margin-top: 3rem;
+            margin-left: 0;
+            border: 0.1px solid blueviolet; //Spacing use only
             
+            nav {
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                justify-content: space-between;
+
+                a {
+                    text-decoration: none;
+                    font-size: 1.6rem;
+                    color: #ad6e3b;   
+                }
+            }
         }
     }
 }
