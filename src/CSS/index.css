@@ -1,20 +1,45 @@
-.container {
-  max-width: 1200px;
-  margin: 0 auto;
+body {
   background-image: url("../../public/assets/img/bkgrnd-img.png");
+  background-size: cover;
   background-color: #754835;
+}
+body .container {
+  max-width: 1280px;
+  margin: 0 auto;
   font-family: 'Montaga', serif;
 }
-.container .nav {
-  width: 100%;
-  border: 2px solid blueviolet;
-  padding: 10px;
+body .container .nav {
+  width: 37%;
+  margin-top: 3rem;
+  margin-left: 0;
+  border: 0.1px solid blueviolet;
 }
-.container .nav nav {
+body .container .nav nav {
   display: flex;
-  justify-content: space-evenly;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
-.container .nav nav a {
+body .container .nav nav a {
   text-decoration: none;
-  color: black;
+  font-size: 1.6rem;
+  color: #ad6e3b;
+}
+body .container .mortar-pestle {
+  width: 242px;
+  height: 237px;
+  margin: -3.3rem 31.5rem;
+  border: 0.1px solid green;
+}
+body .container .oval-bowl {
+  width: 319px;
+  height: 339px;
+  margin: -9rem 53.5rem;
+  border: 0.1px solid yellow;
+}
+body .container .cutting-board {
+  width: 366px;
+  height: 441px;
+  margin: -17rem 6rem;
+  border: 0.1px solid pink;
 }

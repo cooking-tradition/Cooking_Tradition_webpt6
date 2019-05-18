@@ -1,24 +1,61 @@
-.container {
-    max-width: 1200px;
-    margin: 0 auto;
+body {
     background-image: url("../../public/assets/img/bkgrnd-img.png");
+    background-size: cover;
     background-color: #754835;
-    font-family: 'Montaga', serif;
 
-    .nav{
-        width: 100%;
-        border: 2px solid blueviolet; //Spacing use only
-        padding: 10px;
-        
-        nav{
-            display: flex;
-            justify-content: space-evenly;
+    .container {
+        max-width: 1280px;
+        margin: 0 auto;
+        font-family: 'Montaga', serif;
 
-            a{
-                text-decoration: none;
-                color: black;   
+        .nav {
+            width: 37%;
+            margin-top: 3rem;
+            margin-left: 0;
+            border: 0.1px solid blueviolet; //Spacing use only
+            
+            nav {
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                justify-content: space-between;
+
+                a {
+                    text-decoration: none;
+                    font-size: 1.6rem;
+                    color: #ad6e3b;   
+                }
             }
+        }
+
+        .mortar-pestle {
+            width: 242px;
+            height: 237px;
+            margin: -3.3rem 31.5rem;
+            border: 0.1px solid green;  //Spacing use only
+
             
         }
+
+        .oval-bowl {
+            width: 319px;
+            height: 339px;
+            margin: -9rem 53.5rem;
+            border: 0.1px solid yellow;  //Spacing use only
+        }
+
+        .cutting-board {
+            width: 366px;
+            height: 441px;
+            margin: -17rem 6rem;
+            border: 0.1px solid pink;  //Spacing use only
+        }
+
+        // .skillet {
+        //     width: 300px;
+        //     height: 110px;
+        //     margin: 12.5rem 27.9rem;
+        //     border: 0.1px solid orange;  //Spacing use only
+        // }
     }
 }
