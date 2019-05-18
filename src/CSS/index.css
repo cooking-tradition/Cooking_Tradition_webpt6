@@ -1,10 +1,16 @@
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  font-family: 'Montaga', serif;
+}
 .container .nav {
   width: 100%;
   border: 2px solid blueviolet;
+  padding: 10px;
 }
 .container .nav nav {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
 }
 .container .nav nav a {
   text-decoration: none;
