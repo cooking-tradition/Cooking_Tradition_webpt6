@@ -141,6 +141,7 @@ body .container .nav {
   margin-top: 8rem;
   margin-left: 0;
   box-sizing: border-box;
+  position: absolute;
   border: 0.1px solid blueviolet;
 }
 body .container .nav nav {
