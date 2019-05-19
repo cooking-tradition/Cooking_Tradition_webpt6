@@ -126,33 +126,166 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
+html,
 body {
+  max-width: 1280px;
+  max-height: 851px;
   background: url("../../public/assets/img/bkgrnd-img.png") no-repeat center fixed;
   background-size: cover;
   background-color: #754835;
 }
+@media (max-width: 1024px) {
+  html,
+  body {
+    background: url("../../public/assets/img/bkgrnd-img-1024.png") no-repeat center fixed;
+    background-size: cover;
+  }
+}
+@media (max-width: 768px) {
+  html,
+  body {
+    background: url("../../public/assets/img/bkgrnd-img-768.png") no-repeat center fixed;
+    background-size: cover;
+  }
+}
+@media (max-width: 500px) {
+  html,
+  body {
+    background: url("../../public/assets/img/cutting-board-500.png") no-repeat center fixed;
+    background-size: cover;
+  }
+}
+@media (max-width: 480px) {
+  html,
+  body {
+    background: url("../../public/assets/img/cutting-board-480.png") no-repeat center fixed;
+    background-size: cover;
+  }
+}
+@media (max-width: 320px) {
+  html,
+  body {
+    background: url("../../public/assets/img/cutting-board-320.png") no-repeat center fixed;
+    background-size: cover;
+  }
+}
+html .container,
 body .container {
   max-width: 1280px;
-  margin: 0 auto;
+  margin: 0;
+  position: fixed;
   font-family: 'Montaga', serif;
 }
+html .container .nav,
 body .container .nav {
-  width: 11rem;
-  margin-top: 8rem;
-  margin-left: 0;
-  box-sizing: border-box;
-  position: absolute;
+  width: 100%;
+  position: fixed;
   border: 0.1px solid blueviolet;
 }
+html .container .nav nav,
 body .container .nav nav {
-  height: 17rem;
+  width: 25%;
+  height: 52%;
+  margin-top: 15.5%;
+  margin-left: 10.5%;
+  box-sizing: border-box;
+  position: fixed;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
+  border: 0.1px solid orange;
 }
+@media (max-width: 1024px) {
+  html .container .nav nav,
+  body .container .nav nav {
+    width: 24%;
+    height: 52%;
+    margin-top: 15%;
+    margin-left: 10.8%;
+  }
+}
+@media (max-width: 992px) {
+  html .container .nav nav,
+  body .container .nav nav {
+    width: 24%;
+    height: 52%;
+    margin-top: 15%;
+    margin-left: 11%;
+  }
+}
+@media (max-width: 768px) {
+  html .container .nav nav,
+  body .container .nav nav {
+    width: 24%;
+    height: 50%;
+    margin-top: 24%;
+    margin-left: 1%;
+  }
+}
+@media (max-width: 500px) {
+  html .container .nav nav,
+  body .container .nav nav {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+  }
+}
+@media (max-width: 480px) {
+  html .container .nav nav,
+  body .container .nav nav {
+    width: 100%;
+    height: 100%;
+    margin: 20% auto;
+  }
+}
+@media (max-width: 320px) {
+  html .container .nav nav,
+  body .container .nav nav {
+    width: 100%;
+    height: 100%;
+    margin: 20% auto;
+  }
+}
+html .container .nav nav a,
 body .container .nav nav a {
   text-decoration: none;
-  font-size: 1.7rem;
-  color: #001a00;
+  font-size: 3rem;
+  color: #24251F;
+}
+@media (max-width: 1024px) {
+  html .container .nav nav a,
+  body .container .nav nav a {
+    font-size: 3rem;
+  }
+}
+@media (max-width: 992px) {
+  html .container .nav nav a,
+  body .container .nav nav a {
+    font-size: 2.8rem;
+  }
+}
+@media (max-width: 768px) {
+  html .container .nav nav a,
+  body .container .nav nav a {
+    font-size: 2.8rem;
+  }
+}
+@media (max-width: 500px) {
+  html .container .nav nav a,
+  body .container .nav nav a {
+    font-size: 2.7rem;
+  }
+}
+@media (max-width: 480px) {
+  html .container .nav nav a,
+  body .container .nav nav a {
+    font-size: 2.5rem;
+  }
+}
+@media (max-width: 320px) {
+  html .container .nav nav a,
+  body .container .nav nav a {
+    font-size: 2rem;
+  }
 }
