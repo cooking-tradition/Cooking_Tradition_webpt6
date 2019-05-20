@@ -289,3 +289,21 @@ body .container .nav nav a {
     font-size: 2rem;
   }
 }
+.container-about {
+  max-width: 1280px;
+  max-height: 851px;
+  background: url("../../public/assets/img/cutting-board.big.png") no-repeat center fixed;
+  background-size: cover;
+}
+.container-about .nav-top {
+  width: 100%;
+}
+.container-about .nav-top nav {
+  display: flex;
+  justify-content: space-between;
+}
+.container-about .nav-top nav a {
+  text-decoration: none;
+  font-size: 3rem;
+  color: #24251F;
+}
