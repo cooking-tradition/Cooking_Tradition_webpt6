@@ -180,6 +180,7 @@ html .container .nav,
 body .container .nav {
   width: 100%;
   margin: 0 auto;
+  font-size: 3rem;
   color: #847a23;
   border: 0.1px solid blueviolet;
 }
@@ -188,6 +189,9 @@ body .container .nav nav {
   width: 100%;
   display: flex;
   justify-content: space-around;
+}
+html .container .nav nav a,
+body .container .nav nav a {
   color: #847a23;
 }
 @media (max-width: 1024px) {
