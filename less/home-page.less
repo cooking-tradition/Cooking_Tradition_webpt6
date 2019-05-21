@@ -1,0 +1,26 @@
+.main-image {
+  position: relative;
+  .jumbotron-image {
+    width: 100%;
+    @media @mobile {
+      height: 60vh;
+    }
+  }
+  h2 {
+    position: absolute;
+    top: 10%;
+    left: 12%;
+    letter-spacing: 2px;
+    line-height: 1.9;
+    color: @verypalegreen;
+    font-size: 7rem;
+    font-weight: bold;
+    
+    @media @mobile {
+      font-size: 3rem;
+      left: 20px;
+      bottom: 10px;
+    }
+  }
+}
+
