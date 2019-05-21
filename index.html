@@ -1,30 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    
-    <title>Cooking Tradition</title>
-    <link rel='stylesheet' type='text/CSS' href="./src/CSS/index.css">
-    <!-- <script type="text/javascript" src="../src/index.js"></script> -->
-    
+    <title>Cooking Traditions</title>
+    <link rel='stylesheet' type='text/CSS' href="css/index.css">
     <!-- google fonts -->
     <link href="https://fonts.googleapis.com/css?family=Montaga&display=swap" rel="stylesheet">
+    <!-- GSAP -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TweenMax.min.js"></script>
+  </head>
+  <body>
+    <div class="gsap-container">
+      <header>
+        <div class="nav-bar">
+          <h1>Cooking Traditions</h1>
 
-</head>
-<body>
-    <div class='container'>
-        <div class='nav'>
-            <h1 class="site-title">Cooking Tradition</h1>
+          <img
+            src="img/nav-hamburger.png"
+            alt="nav-icon"
+            class="navigation-button active hamburger-open"
+          />
+          <img
+            src="img/nav-hamburger-close.png"
+            alt="the X icon"
+            class="navigation-button hamburger-close"
+          />
+
+          <div class="nav-tags hidden">
             <nav>
-                <a href="index.html">Home</a>
-                <a href="about.html">About</a>
-                <a href="#">Demo</a>
-                <a href="#">Services</a>
-                <a href="#">Login</a>
+              <a href="./index.html" class="nav-link">Home</a>
+              <a href="./demo.html" class="nav-link">Demo</a>
+              <a href="./contact.html" class="nav-link">Contact</a>
+              <a href="./about.html" class="nav-link">About</a>
             </nav>
+          </div>
+          <!--nav-tags hidden-->
         </div>
+        <!--nav-bar-->
+        <div class="main-image">
+          <img
+            class="jumbotron-image"
+            src="img/bkgrnd-img-1024.png"
+            alt="rustic tabletop with cutting board, cooking tools, and assorted spices"
+          />
+          <h2 class="title">
+            Cooking<br />
+            Traditions
+          </h2>
+        </div>
+        <!--main-image-->
+      </header>
+      
+      
     </div>
-</body>
+    <!--gsap-container-->
+    <script src="js/index.js"></script>
+  </body>
 </html>
