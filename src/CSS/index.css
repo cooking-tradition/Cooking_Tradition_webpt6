@@ -128,8 +128,8 @@ table {
 }
 html,
 body {
-  max-width: 1280px;
-  max-height: 851px;
+  max-width: 100%;
+  max-height: 100%;
   background: url("../../public/assets/img/bkgrnd-img.png") no-repeat center fixed;
   background-size: cover;
   background-color: #754835;
@@ -171,30 +171,24 @@ body {
 }
 html .container,
 body .container {
-  max-width: 1280px;
+  max-width: 100%;
   margin: 0;
-  position: fixed;
+  position: relative;
   font-family: 'Montaga', serif;
 }
 html .container .nav,
 body .container .nav {
   width: 100%;
-  position: fixed;
+  margin: 0 auto;
+  color: #847a23;
   border: 0.1px solid blueviolet;
 }
 html .container .nav nav,
 body .container .nav nav {
-  width: 25%;
-  height: 52%;
-  margin-top: 15.5%;
-  margin-left: 10.5%;
-  box-sizing: border-box;
-  position: fixed;
+  width: 100%;
   display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
-  border: 0.1px solid orange;
+  justify-content: space-around;
+  color: #847a23;
 }
 @media (max-width: 1024px) {
   html .container .nav nav,
