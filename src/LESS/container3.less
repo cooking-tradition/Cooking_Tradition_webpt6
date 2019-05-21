@@ -1,6 +1,6 @@
 html, body {
-    max-width: 100%;
-    max-height: 100%;
+    max-width: 1280px;
+    max-height: 851px;
     background: url("../../public/assets/img/bkgrnd-img.png") no-repeat center fixed; 
     background-size: cover;
     background-color: #754835;
@@ -31,36 +31,29 @@ html, body {
     }
 
     .container {
-        max-width: 100%;
+        max-width: 1280px;
         margin: 0;
-        position: relative;
+        position: fixed;
         font-family: 'Montaga', serif;
 
         .nav {
             width: 100%;
-            margin: 0 auto;
-            
-            color: #847a23;
+            // height: 100%;
+            position: fixed;
             border: 0.1px solid blueviolet; //Spacing use only
             
             nav {
-                width: 100%;
+                width: 25%;
+                height: 52%;
+                margin-top: 15.5%;
+                margin-left: 10.5%;
+                box-sizing: border-box;
+                position: fixed;
                 display: flex;
-                justify-content: space-around;
-                color: #847a23;
-                
-
-                // width: 25%;
-                // height: 52%;
-                // margin-top: 15.5%;
-                // margin-left: 10.5%;
-                // box-sizing: border-box;
-                // position: fixed;
-                // display: flex;
-                // flex-direction: column;
-                // justify-content: space-between;
-                // align-items: center;
-                // border: 0.1px solid orange;
+                flex-direction: column;
+                justify-content: space-between;
+                align-items: center;
+                border: 0.1px solid orange;
 
                 // @media @max1280 {
                 //     width: 24%;
@@ -145,5 +138,35 @@ html, body {
                 }
             }
         }
+    
+        // .mortar-pestle {
+        //     width: 242px;
+        //     height: 237px;
+        //     margin: -3.3rem 31.5rem;
+        //     border: 0.1px solid green;  //Spacing use only
+    
+            
+        // }
+    
+        // .oval-bowl {
+        //     width: 319px;
+        //     height: 339px;
+        //     margin: -9rem 53.5rem;
+        //     border: 0.1px solid yellow;  //Spacing use only
+        // }
+    
+        // .cutting-board {
+        //     width: 366px;
+        //     height: 441px;
+        //     margin: -17rem 6rem;
+        //     border: 0.1px solid pink;  //Spacing use only
+        // }
+    
+        // .skillet {
+        //     width: 300px;
+        //     height: 110px;
+        //     margin: 12.5rem 27.9rem;
+        //     border: 0.1px solid orange;  //Spacing use only
+        // }
     }
 }
