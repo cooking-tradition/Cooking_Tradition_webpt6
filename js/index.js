@@ -89,3 +89,5 @@ function onResize() {
     requestId = requestAnimationFrame(updateScroller);
   }
 }
+
+// Carousel
