@@ -13,10 +13,10 @@ class NavButton {
 const menuButton = document.querySelectorAll(".navigation-button").forEach(button => new NavButton(button));
 
 window.onload = function() {
-    var logo = document.getElementsByClassName("title");
+    let logo = document.getElementsByClassName("title");
     TweenLite.from(logo, 2, {opacity:0, left:"300px"});
   }
-  var tl = new TimelineMax({repeat:24, repeatDelay:0.4, yoyo:true});
+  let tl = new TimelineMax({repeat:24, repeatDelay:0.4, yoyo:true});
 tl.staggerTo("h1", 0.1, {className:"+=superShadow", top:"-=10px", ease:Power1.easeIn}, "0.1", "start")
 
 TweenLite.from(".middle-button", 2, {opacity:0, left:"300px"});
@@ -54,7 +54,7 @@ function updateScroller() {
   let resized = scroller.resizeRequest > 0;
     
   if (resized) {    
-    var height = scroller.target.clientHeight;
+    let height = scroller.target.clientHeight;
     body.style.height = height + "px";
     scroller.resizeRequest = 0;
   }
