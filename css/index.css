@@ -134,11 +134,6 @@ html,
 body {
   font-size: 62.5%;
   background-color: #313715;
-  background-color: #847a23;
-}
-html body,
-body body {
-  background-image: linear-gradient(to bottom, #313715, #313715, #313715, #313715, #313715, #373c16, #3d4218, #434719, #52541c, #61601e, #726d21, #847a23);
 }
 .container {
   font-size: 1.6rem;
@@ -383,33 +378,30 @@ h5 {
   max-width: 900px;
   display: none;
 }
-@media (max-width: 1280px) (max-width: 1024px) (max-width: 992px) {
-  .gsap-container .slideshow {
+@media (max-width: 1280px) {
+  .gsap-container .slideshow .demoSlides {
     max-width: 900px;
   }
 }
 @media (max-width: 768px) {
-  .gsap-container .slideshow {
+  .gsap-container .slideshow .demoSlides {
     max-width: 700px;
   }
 }
 @media (max-width: 500px) {
-  .gsap-container .slideshow {
+  .gsap-container .slideshow .demoSlides {
     max-width: 400px;
   }
 }
 @media (max-width: 480px) {
-  .gsap-container .slideshow {
-    max-width: 450px;
+  .gsap-container .slideshow .demoSlides {
+    max-width: 350px;
   }
 }
 @media (max-width: 320px) {
-  .gsap-container .slideshow {
+  .gsap-container .slideshow .demoSlides {
     max-width: 300px;
   }
-}
-.gsap-container {
-  background-image: linear-gradient(to bottom, #313715, #313715, #313715, #313715, #313715, #373c16, #3d4218, #434719, #52541c, #61601e, #726d21, #847a23);
 }
 .gsap-container .carousel-inner .item img {
   margin: 0 auto;
