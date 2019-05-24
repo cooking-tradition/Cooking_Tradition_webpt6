@@ -501,7 +501,10 @@ p {
   font-size: 4rem;
   color: #f5eeb3;
 }
-.slideshow .demoSlides {
+.gsap-container {
+  background-color: #313715;
+}
+.gsap-container .slideshow .demoSlides {
   margin: 0 auto;
   max-width: 900px;
   display: none;
