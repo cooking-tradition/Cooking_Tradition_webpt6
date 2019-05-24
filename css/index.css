@@ -130,11 +130,14 @@ table {
   box-sizing: border-box;
   font-family: Montaga, serif;
 }
-html {
+html,
+body {
   font-size: 62.5%;
+  background-color: #313715;
   background-color: #847a23;
 }
-html body {
+html body,
+body body {
   background-image: linear-gradient(to bottom, #313715, #313715, #313715, #313715, #313715, #373c16, #3d4218, #434719, #52541c, #61601e, #726d21, #847a23);
 }
 .container {
@@ -215,7 +218,7 @@ h5 {
   height: 100vh;
   width: 100vw;
   opacity: 0.95;
-  background-color: #001500;
+  background-color: #140801;
 }
 .nav-bar .nav-tags a {
   font-size: 4rem;
@@ -251,8 +254,8 @@ h5 {
 }
 .main-image h2 {
   position: absolute;
-  top: 30%;
-  left: 12%;
+  top: 10%;
+  left: 8%;
   letter-spacing: 2px;
   line-height: 1.9;
   color: #f5eeb3;
@@ -266,6 +269,14 @@ h5 {
     left: 20px;
     bottom: 10px;
   }
+}
+.gsap-container {
+  background-color: #313715;
+}
+.gsap-container .slideshow .demoSlides {
+  margin: 0 auto;
+  max-width: 900px;
+  display: none;
 }
 .gsap-container {
   background-image: linear-gradient(to bottom, #313715, #313715, #313715, #313715, #313715, #373c16, #3d4218, #434719, #52541c, #61601e, #726d21, #847a23);
