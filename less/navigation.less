@@ -9,7 +9,7 @@
     padding: 2% 2%;
     margin: 0;
 
-    @media @mobile {
+    @media @max500 {
       padding: 3% 5%;
     }
 
@@ -23,6 +23,30 @@
       margin-inline-start: 0;
       margin-inline-end: 0;
       font-family: Montaga, serif;
+
+      @media @max1024 {
+        font-size: 3rem;
+      }
+
+     @media @max992 {
+        font-size: 2.8rem;
+      }
+
+     @media @max768 {
+        font-size: 2.8rem;
+      }
+
+     @media @max500 {
+        font-size: 1rem;
+      }
+
+     @media @max480 {
+        font-size: 1rem;
+      }
+
+     @media @max320 {
+        font-size: 0.1rem;
+      }
     }
 
     .active {
@@ -48,6 +72,47 @@
       opacity: 0.95;
       background-color: @greenblack;
 
+      @media @max1024 {
+        width: 24%;
+        height: 52%;
+        margin-top: 15%;
+        margin-left: 10.8%;
+    }
+
+     @media @max992 {
+        width: 24%;
+        height: 52%;
+        margin-top:15%;
+        margin-left: 11%;
+    }
+
+     @media @max768 {
+        width: 24%;
+        height: 50%;
+        margin-top: 24%;
+        margin-left: 1%;
+    }
+
+     @media @max500 {
+        width: 100%;
+        height: 100%;
+        // margin-top: 27%;
+        // margin-left: 1.3%;
+        margin: 0 auto;
+    }
+
+     @media @max480 {
+        width: 100%;
+        height: 100%;
+        margin: 20% auto;
+    }
+
+     @media @max320 {
+        width: 100%;
+        height: 100%;
+        margin: 20% auto;
+    }
+
       a {
         font-size: 4rem;
         text-decoration: none;
@@ -63,6 +128,30 @@
         &:hover {
           color: @olive;
         }
+
+        @media @max1024 {
+          font-size: 3rem;
+      }
+
+       @media @max992 {
+          font-size: 2.8rem;
+      }
+
+       @media @max768 {
+          font-size: 2.8rem;
+      }
+
+       @media @max500 {
+          font-size: 2.7rem;
+      }
+
+       @media @max480 {
+          font-size: 2.5rem;
+      }
+
+       @media @max320 {
+          font-size: 2rem;
+      }
       }
 
       a:first-child {
