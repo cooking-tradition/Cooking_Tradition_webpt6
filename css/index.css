@@ -275,6 +275,9 @@ h5 {
 }
 .gsap-container .carousel-inner .item .carousel-caption {
   background-color: #847a23;
+  max-height: 80px;
+  padding-bottom: 20px;
+  margin: 30px;
 }
 .forum-container {
   max-width: 1280px;
