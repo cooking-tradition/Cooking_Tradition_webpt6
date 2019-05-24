@@ -135,6 +135,9 @@ body {
   font-size: 62.5%;
   background-color: #313715;
 }
+html body {
+  background-image: linear-gradient(to bottom, #313715, #313715, #313715, #313715, #313715, #373c16, #3d4218, #434719, #52541c, #61601e, #726d21, #847a23);
+}
 .container {
   font-size: 1.6rem;
   max-width: 1024px;
@@ -176,6 +179,7 @@ h5 {
   justify-content: space-between;
   background-color: #313715;
   padding: 2% 2%;
+  margin: 0;
 }
 @media (max-width:500px) {
   .nav-bar {
@@ -183,9 +187,14 @@ h5 {
   }
 }
 .nav-bar h1 {
+  display: flex;
   color: #8C6613;
   font-size: 3rem;
   margin-top: 0;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  margin-inline-start: 0;
+  margin-inline-end: 0;
   font-family: Montaga, serif;
 }
 .nav-bar .active {
@@ -259,6 +268,7 @@ h5 {
     bottom: 10px;
   }
 }
+
 * {
   margin: 0 auto;
   padding: 0;
