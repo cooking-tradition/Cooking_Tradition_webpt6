@@ -173,6 +173,11 @@ h5 {
   padding: 2% 2%;
   margin: 0;
 }
+@media (max-width: 500px) {
+  .nav-bar {
+    max-height: 1.6rem;
+  }
+}
 .nav-bar h1 {
   display: flex;
   color: #8C6613;
@@ -417,6 +422,7 @@ body .gsap-container #myCarousel .carousel-inner .item img {
 .forum-container {
   max-width: 1280px;
   max-height: 1000px;
+  padding-top: 200px;
   margin: 0 auto;
 }
 /* style the container */
@@ -424,6 +430,18 @@ body .gsap-container #myCarousel .carousel-inner .item img {
   border-radius: 5px;
   background-color: #313715;
   padding: 1% 0;
+}
+h2 {
+  color: #f5eeb3;
+  font-size: 5rem;
+  font-weight: bold;
+  font-family: Montaga, serif;
+}
+p {
+  color: #f5eeb3;
+  font-size: 2rem;
+  font-weight: bold;
+  font-family: Montaga, serif;
 }
 /* style inputs and link buttons */
 input,
@@ -510,7 +528,7 @@ input[type=submit]:hover {
 /* Responsive layout - when the screen is less than 650px wide, make the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 650px) {
   .forum-container {
-    padding-top: 20px;
+    padding-top: 100px;
   }
   .col {
     width: 100%;
