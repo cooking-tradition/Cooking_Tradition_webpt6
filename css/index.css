@@ -404,14 +404,15 @@ h5 {
   width: 80vw;
   display: none;
 }
-.gsap-container .carousel-inner .item img {
-  margin: 0 auto;
+body {
+  background-color: #313715;
 }
-.gsap-container .carousel-inner .item .carousel-caption {
-  background-color: #847a23;
-  max-height: 80px;
-  padding-bottom: 20px;
-  margin: 30px;
+body .gsap-container #myCarousel .carousel-inner .item {
+  background-color: #313715;
+}
+body .gsap-container #myCarousel .carousel-inner .item img {
+  margin: 0 auto;
+  height: 50vw;
 }
 .forum-container {
   max-width: 1280px;
@@ -523,4 +524,14 @@ input[type=submit]:hover {
     display: block;
     text-align: center;
   }
+}
+h2 {
+  margin: 15% 5%;
+  font-size: 6rem;
+  color: #f5eeb3;
+}
+p {
+  margin: 15% 5%;
+  font-size: 4rem;
+  color: #f5eeb3;
 }
