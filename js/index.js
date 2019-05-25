@@ -1,26 +1,29 @@
 class NavButton {
     constructor(element){
+      //  assign this.element to the element DOM reference
         this.element = element;
+        //  Get the HTML element class nav-tags assign this.navItems to it
         this.navItems = document.querySelector(".nav-tags");
+        // assign a clickhandler to this.element that invokes this.handleClick
         this.element.addEventListener('click', () => this.handleClick());
     }
     handleClick() {
+      // when handleClick is invoked, get all instances of class navigation-button, store them in a NodeList, iterate over the NodeList, and for each one, toggle between active and hidden attributes
         document.querySelectorAll('.navigation-button').forEach(element => element.classList.toggle('active'));
         this.navItems.classList.toggle('hidden')
     }
 }
-
+// get all instances of class navigation-button and store them in a NodeList, iterate over the list, and for each one, assign value menuButton
 const menuButton = document.querySelectorAll(".navigation-button").forEach(button => new NavButton(button));
 
+// run this function when the page loads
 window.onload = function() {
+  // get all instances of class title and assign them to value logo
     let logo = document.getElementsByClassName("title");
+    // animate target (logo) to fade in and slide in for 2 seconds
     TweenLite.from(logo, 2, {opacity:0, left:"300px"});
   }
-  let tl = new TimelineMax({repeat:24, repeatDelay:0.4, yoyo:true});
-tl.staggerTo("h1", 0.1, {className:"+=superShadow", top:"-=10px", ease:Power1.easeIn}, "0.1", "start")
-
-TweenLite.from(".middle-button", 2, {opacity:0, left:"300px"});
-
+  
 let html = document.documentElement;
 let body = document.body;
 
@@ -89,5 +92,3 @@ function onResize() {
     requestId = requestAnimationFrame(updateScroller);
   }
 }
-
-// Carousel
