@@ -40,18 +40,32 @@
         </div>
       </header>
         <!--nav-bar-->
-        <!--main-image-->
         <div class="main-image">
-          <img
+          <picture>
+            <source media="(min-width: 2560px)" srcset="img/bkgrnd-img-2560.png">
+            <source media="(max-width:1440px)" srcset="img/bkgrnd-img-1440.png">
+            <source media="(max-width:1280px)" srcset="img/bkgrnd-img-1280.png">
+            <source media="(max-width:1024px)" srcset="img/bkgrnd-img-1024.png">
+            <source media="(max-width:992px)" srcset="img/bkgrnd-img-992.png">
+            <source media="(max-width:768px)" srcset="img/bkgrnd-img-768.png">
+            <source media="(max-width:500px)" srcset="img/bkgrnd-img-500.png">
+            <source media="(max-width:480px)" srcset="img/bkgrnd-img-480.png">
+            <source media="(max-width:320px)" srcset="img/bkgrnd-img-320.png">
+            <img src="img/bkgrnd-img.png" alt="rustic tabletop with cutting board, cooking tools, and assorted spices" style="width: 100%" />
+          </picture>
+          <!-- <img
             class="jumbotron-image"
             src="img/bkgrnd-img-1280.png"
             alt="rustic tabletop with cutting board, cooking tools, and assorted spices"
-          />
+          /> -->
           <h2 class="title">
             Cooking<br />
             Traditions
           </h2>
         </div>
+        <!--main-image-->
+      
+      
     </div>
     <!--gsap-container-->
     <script src="js/index.js"></script>
