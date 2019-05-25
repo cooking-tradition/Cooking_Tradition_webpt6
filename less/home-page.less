@@ -1,15 +1,13 @@
 .main-image {
   position: relative;
+
   .jumbotron-image {
-    width: 100%;
-    
-    @media @max500 {
-      height: 60vh;
-    }
+    width: 100vw;
   }
+
   h2 {
     position: absolute;
-    top: 10%;
+    top: 40%;
     left: 8%;
     letter-spacing: 2px;
     line-height: 1.9;
@@ -17,11 +15,59 @@
     font-size: 7rem;
     font-weight: bold;
     font-family: Montaga, serif;
-    
+
+    @media @min2560 {
+      top: 32%;
+      left: 10%;
+      font-size: 12rem;
+    }
+
+    @media @max1440 {
+      top: 32%;
+      left: 9%;
+      font-size: 6.8rem;
+    }
+
+    @media @max1280 {
+      top: 30%;
+      left: 9%;
+      font-size: 6.7rem;
+    }
+
+    @media @max1024 {
+      top: 27%;
+      left: 10%;
+      font-size: 6.5rem;
+    }
+
+    @media @max992 {
+      top: 25%;
+      left: 10%;
+      font-size: 6rem;
+    }
+
+    @media @max768 {
+      top: 32%;
+      left: 10%;
+      font-size: 4.5rem;
+    }
+
     @media @max500 {
+      top: 28%;
+      left: 10%;
+      font-size: 3.5rem;
+    }
+
+    @media @max480 {
+      top: 25%;
+      left: 10%;
       font-size: 3rem;
-      left: 20px;
-      bottom: 10px;
+    }
+    
+    @media @max320 {
+      top: 20%;
+      left: 10%;
+      font-size: 2rem;
     }
   }
 }
