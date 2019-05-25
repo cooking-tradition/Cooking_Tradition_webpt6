@@ -173,6 +173,11 @@ h5 {
   padding: 2% 2%;
   margin: 0;
 }
+@media (max-width: 500px) {
+  .nav-bar {
+    height: 3%;
+  }
+}
 .nav-bar h1 {
   display: flex;
   color: #8C6613;
@@ -509,6 +514,9 @@ input[type=submit]:hover {
 }
 /* Responsive layout - when the screen is less than 650px wide, make the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 650px) {
+  .forum-container {
+    padding-top: 20px;
+  }
   .col {
     width: 100%;
     margin-top: 0;
